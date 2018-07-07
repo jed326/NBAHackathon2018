@@ -1,7 +1,6 @@
 class Player:
     def __init__(self, id):
         self.id = id
-        self.PM = 0
 
 class Team:
     def __init__(self, team_id):
@@ -10,8 +9,8 @@ class Team:
         self.roster = {}
 
     def printRoster(self):
-        for player in self.roster.keys():
-            print(player.id)
+        for player, pm in self.roster.items():
+            print(player.id, pm)
 
     def __str__(self):
         for player in self.onCourt:

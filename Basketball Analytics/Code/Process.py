@@ -20,6 +20,11 @@ def processLine(line):
 # row[11]: Person2
 
 def processGames():
+    with open("../Tilted_Towers_Q1_BBALL.csv", "w") as file:
+        writer = csv.writer(file, delimiter=",")
+        writer.writerow(['Game_ID', 'Player_ID', 'Player_Plus/Minus'])
+        file.close()
+
     for filename in os.listdir("../Games/"):
         game = gdt.Game(filename[:-4]) #Initialize game object with gameid.
         createTeams(game)
@@ -51,13 +56,24 @@ def processGames():
                         if(row[3] == "1" or row[3] == "3"):
                             addPoints(getTeam(game, row[9]), row[8])
                             subtractPoints(getOtherTeam(game, row[9]), row[8])
-                        elif(row[3] == "11" or row[3] == "8"):
-                            changePlayer(row[9], row[10], row[11])
+                        elif(row[3] == "8"):
+                            changePlayer(getTeam(game, row[9]), row[10], row[11])
                             #print("PLAYER CHANGE")    
             #process event type
-            print(game.teams[0].roster)
-            print(game.teams[1].roster)
-        return
+            print("TEAM 1: ")
+            game.teams[0].printRoster()
+            print("TEAM 2: ")
+            game.teams[1].printRoster()
+            writeToCSV(game)
+        #return
+
+def writeToCSV(game):
+    with open("../Tilted_Towers_Q1_BBALL.csv", "a") as file:
+        writer = csv.writer(file, delimiter=",")
+        for team in game.teams:
+            for player, pm in team.roster.items():
+                writer.writerow([game.id, player.id, pm])
+        file.close()
 
 def getTeam(game, team_id):
     if(game.teams[0].id == team_id):
@@ -86,7 +102,12 @@ def addPoints(team, points):
             team.roster[player] += int(points)
 
 def changePlayer(team, player1, player2):
-    pass
+    #print(team.id, player1, player2)
+    if( player2 not in [player.id for player in team.roster.keys()]):
+        team.roster.update({gdt.Player(player2): 0})
+    for spot in range(len(team.onCourt)):
+        if(team.onCourt[spot].id == player1):
+            team.onCourt[spot] = gdt.Player(player1)
 
 def createTeams(game):
     with open("../NBA Hackathon - Game Lineup Data Sample (50 Games).txt") as file:
