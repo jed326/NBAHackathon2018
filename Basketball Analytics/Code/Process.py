@@ -17,7 +17,7 @@ def processLine(line):
 # row[8]: Option1 - point value of a shot
 # row[9]: Team_id
 # row[10]: Person1
-# row[11]: Person 2
+# row[11]: Person2
 
 def processGames():
     for filename in os.listdir("../Games/"):
@@ -46,10 +46,47 @@ def processGames():
                         print(game.teams[0])
                         print("Team 2:")
                         print(game.teams[1])
-                        
-                    #process event type
+                    else:
+                        #Scoring Event_Msg_Types: 1,3, 
+                        if(row[3] == "1" or row[3] == "3"):
+                            addPoints(getTeam(game, row[9]), row[8])
+                            subtractPoints(getOtherTeam(game, row[9]), row[8])
+                        elif(row[3] == "11" or row[3] == "8"):
+                            changePlayer(row[9], row[10], row[11])
+                            #print("PLAYER CHANGE")    
+            #process event type
+            print(game.teams[0].roster)
+            print(game.teams[1].roster)
         return
 
+def getTeam(game, team_id):
+    if(game.teams[0].id == team_id):
+        return game.teams[0]
+    elif(game.teams[1].id == team_id):
+        return game.teams[1]
+
+def getOtherTeam(game, team_id):
+    if(game.teams[0].id == team_id):
+        return game.teams[1]
+    elif(game.teams[1].id == team_id):
+        return game.teams[0]
+
+def subtractPoints(team, points):
+    #print(points, team.id)
+    players = team.onCourt
+    for player in team.roster.keys():
+        if player.id in [x.id for x in players]:
+            team.roster[player] -= int(points)
+
+def addPoints(team, points):
+    #print(points, team.id)
+    players = team.onCourt
+    for player in team.roster.keys():
+        if player.id in [x.id for x in players]:
+            team.roster[player] += int(points)
+
+def changePlayer(team, player1, player2):
+    pass
 
 def createTeams(game):
     with open("../NBA Hackathon - Game Lineup Data Sample (50 Games).txt") as file:
