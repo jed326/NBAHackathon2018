@@ -6,10 +6,15 @@ class Player:
 class Team:
     def __init__(self, team_id):
         self.id = team_id
-        self.players = []
+        self.onCourt = []
+        self.roster = {}
+
+    def printRoster(self):
+        for player in self.roster.keys():
+            print(player.id)
 
     def __str__(self):
-        for player in self.players:
+        for player in self.onCourt:
             print(player.id)
         return ""
 

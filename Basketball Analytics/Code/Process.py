@@ -23,22 +23,30 @@ def processGames():
     for filename in os.listdir("../Games/"):
         game = gdt.Game(filename[:-4]) #Initialize game object with gameid.
         createTeams(game)
-        print(game)
-        print("")
+        print(game, '\n')
         with open("../Games/" + filename) as file: #Opens a gameid.csv file
             reader = csv.reader(file, delimiter=',')
-            team1Playing = []
-            team2Playing = []
+            getRoster(game, game.teams[0])
+            getRoster(game, game.teams[1])
+            print("Team 1 roster:")
+            game.teams[0].printRoster()
+            print("")
+            print("Team 2 roster:")
+            game.teams[1].printRoster()
+            print("")
             period = "0"
             for row in reader:
                 if(row[0] != ""):
-                    if(period != row[4]): #checks if a new period is starting
-                        print("Starting roster for period %s:" % (row[4]))
-                        team1Playing = getPlaying(game, game.teams[0])
-                        print(game.teams[0])
-                        team2Playing = getPlaying(game, game.teams[1])
-                        print(game.teams[1])
+                    if(period != row[4]): #if a new period is starting
                         period = row[4]
+                        print("Starting rosters for period %s:" % (row[4]))
+                        getStarters(game, game.teams[0], period)
+                        getStarters(game, game.teams[1], period)
+                        print("Team 1:")
+                        print(game.teams[0])
+                        print("Team 2:")
+                        print(game.teams[1])
+                        
                     #process event type
         return
 
@@ -56,17 +64,26 @@ def createTeams(game):
                 else:
                     return
 
-def getPlaying(game, team):
-    team.players = []
+def getStarters(game, team, period):
+    team.onCourt = []
     with open("../NBA Hackathon - Game Lineup Data Sample (50 Games).txt") as file:
         reader = csv.reader(file, delimiter='\t')
         playersAdded = 0 #counter variable for adding new teams to the game
         for row in reader:
+            if(row[0] != '' and row[0] == game.id and row[3] == team.id and row[1] == period):
+                if(playersAdded < 5 and (row[2] not in [player.id for player in team.onCourt])):
+                    team.onCourt.append(gdt.Player(row[2]))
+                    playersAdded += 1
+                else:
+                    return
+
+def getRoster(game, team):
+    with open("../NBA Hackathon - Game Lineup Data Sample (50 Games).txt") as file:
+        reader = csv.reader(file, delimiter='\t')
+        for row in reader:
             if(row[0] != '' and row[0] == game.id and row[3] == team.id):
-                if(playersAdded < 5):
-                    if(row[2] not in [player.id for player in team.players]):
-                        team.players.append(gdt.Player(row[2]))
-                        playersAdded += 1
+                if((row[2] not in [player.id for player in team.roster.keys()])):
+                    team.roster.update({gdt.Player(row[2]): 0})
                 else:
                     return
             
