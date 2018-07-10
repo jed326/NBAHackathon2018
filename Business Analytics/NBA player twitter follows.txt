@@ -1,0 +1,310 @@
+﻿255: Kevin Durant
+
+
+226: LeBron James
+
+
+182: John Wall
+
+
+175: Jamal Crawford
+
+
+168: Russell Westbrook
+
+
+161: Chris Paul
+
+
+147: Stephen Curry
+
+
+143: Kyrie Irving
+
+
+137: Dwyane Wade
+
+
+134: Carmelo Anthony
+
+
+130: Damian Lillard
+
+
+128: Paul George
+
+
+120: James Harden
+
+
+114: Blake Griffin
+
+
+106: Isaiah Thomas
+
+
+105: Dwight Howard
+
+
+104: Stanley Johnson
+
+
+101: DeMarcus Cousins
+
+
+99: Rudy Gay
+
+
+95: Anthony Davis, Dirk Nowitzki, Joel Embiid
+
+
+90: JR Smith
+
+
+89: DeAndre Jordan
+
+
+88: Evan Turner
+
+
+87: Kevin Love
+
+
+85: Vince Carter
+
+
+83: CJ McCollum
+
+
+79: Jabari Parker, Andre Iguodala
+
+
+78: Harrison Barnes
+
+
+76: DeMar DeRozan, Draymond Green
+
+
+74: Devin Booker, Chandler Parsons
+
+
+73: Tony Allen, Jared Dudley
+
+
+72: Jahlil Okafor
+
+
+71: Andrew Wiggins, Bradley Beal, Rajon Rondo, Andre Drummond, Leandro Barbosa
+
+
+70: Brandon Knight, Thomas Robinson
+
+
+69: Eric Bledsoe, Victor Oladipo, Julius Randle
+
+
+68: Marc Gasol
+
+
+67: Derrick Rose, Eric Gordon
+
+
+66: Lou Williams, Michael Kidd-Gilchrist, Kyle Anderson
+
+
+65: Terrence Ross
+
+
+64: Jeremy Lin, Austin Rivers, Tyler Ennis
+
+
+63: Marreese Speights, Michael Carter-Williams
+
+
+62: Kemba Walker, Tristan Thompson, Reggie Bullock
+
+
+61: Wilson Chandler, Marcus Morris, Iman Shumpert, Skal Labissiere, Jordan Clarkson
+
+
+60: Will Barton
+
+
+59: Kyle Lowry, JJ Redick
+
+
+58: Kevin Seraphin
+
+
+57: Tobias Harris, Deron Williams, Justin Anderson, Tyus Jones
+
+
+56: Nick Young, John Henson, Kelly Oubre Jr., Spencer Dinwiddie, Jason Terry
+
+
+55: Zach Randolph, Gary Harris, Ben McLemore, Justise Winslow, Nik Stauskas
+
+
+54: D’Angelo Russell, Kenneth Faried, Maurice Harkless, Jeff Green, Doug McDermott, Mario Chalmers, Jameer Nelson, Brandan Wright
+
+
+53: Aaron Gordon, Seth Curry, Cameron Payne
+
+
+52: Tim Hardaway Jr., Kyle O’Quinn, Quincy Pondexter
+
+
+51: Nerlens Noel, Tyson Chandler, TJ Warren, Sam Dekker, Ed Davis
+
+
+50: LaMarcus Aldridge, Dion Waiters, Jose Calderon
+
+
+49: Brandon Ingram, Shabazz Muhammad, Markieff Morris, Anthony Tolliver, Andrew Harrison, Bobby Brown
+
+
+48: Klay Thompson, Myles Turner Pau Gasol, Ricky Rubio, Trevor Ariza, Jayson Tatum, Joakim Noah, Harry Giles, Derrick Williams
+
+
+47: Wesley Matthews, Rondae Hollis-Jefferson, Al Farouq-Aminu, Wayne Selden, Langston Galloway, Chris McCullough
+
+
+46: Karl Anthony-Towns, Goran Dragic, Tony Parker, Danny Green, Dennis Smith Jr., Dakari Johnson
+
+
+45: Hassan Whiteside, Reggie Jackson, Luol Deng, JaVale McGee, Noah Vonleh, Quincy Acy
+
+
+44: Mike Conley, Jae Crowder, Roy Hibbert, David Lee, Wayne Ellington, Norris Cole, Channing Frye, Matt Barnes
+
+
+43: Robin Lopez, Shelvin Mack
+
+
+42: Zach LaVine, Sean Kilpatrick, Alec Burks, Ivan Rabb
+
+
+41: Jimmy Butler, Jeff Teague, Patrick Beverley, Kyle Korver, Darren Collison, Jeremy Lamb, Trey Lyles, Spencer Hawes, Cole Aldrich
+
+
+40: Al Horford, Nicolas Batum, Larry Nance Jr., Marcin Gortat, Garrett Temple, Ish Smith
+
+
+39: Markelle Fultz, Serge Ibaka, Courtney Lee, Tyler Ulis, Taj Gibson, Nick Collison, Trevor Booker
+
+
+38: Lance Stephenson, Buddy Hield, Emmanuel Mudiay, David West, DeJounte Murray, Kevon Looney, Jordan Crawford, Tim Frazier, Alex Poythress
+
+
+37: Danilo Gallinari, George Hill, Patrick Patterson, Bobby Portis, Troy Daniels, Terrance Ferguson
+
+
+36: Kristaps Porzingis, Ben Simmons, Glenn Robinson III, Andrew Bogut, Ekpe Udoh
+
+
+35: Giannis Antetokounmpo, Rudy Gobert, Thaddeus Young, Joe Ingles, Marcus Smart, Donovan Mitchell, Kelly Olynyk, Kent Bazemore, Frank Kaminsky, Raymond Felton
+
+
+34: Steven Adams, DeMarre Carroll, Bismack Biyombo, Ian Clark, Thabo Sefolosha, Solomon Hill, Kobi Simmons
+
+
+33: Manu Ginobili, Khris Middleton, Jaylen Brown, Cory Joseph, Justin Holiday, Randy Foye, Corey Brewer, Shane Larkin
+
+
+32: Gordon Hayward, Jamal Murray, Dante Exum, Joe Young
+
+
+31: Joe Johnson, Tyreke Evans, Zaza Pachulia, Justin Jackson, Montrezl Harrell, Meyers Leonard, Jonas Jerebko, Kyle Singler
+
+
+30: Lonzo Ball, Willie Cauley-Stein, Patty Mills, Jerami Grant, Troy Williams, Luc Mbah a Moute, Malik Beasley, Anthony Brown
+
+
+29: Marquese Chriss, De’Aaron Fox, Evan Fournier, Nikola Vucevic
+
+
+28: Josh Jackson, Robert Covington, Shaun Livingston, Alex Len, Amir Johnson, Matthew Dellavedova, Omri Casspi, James Ennis, Jerian Grant
+
+
+27: Elfrid Payton, TJ McConnell, Mason Plumlee, Andre Roberson, Miles Plumlee, Ian Mahinmi, Jodie Meeks, Pat Connaughton
+
+
+26: Kentavious Caldwell-Pope, TJ Leaf, Kosta Koufos, Dewayne Dedmon, James Michael McAdoo, E’Twaun Moore, Rashad Vaughn, Darius Miller
+
+
+25: Dennis Schroder, Jusuf Nurkic, Greg Monroe, C.J. Miles, Willie Reed, Lucas Nogueira, Juancho Hernangomez, Josh Richardson, Ron Baker
+
+
+24: Nikola Mirotic, Marco Belinelli, Taurean Prince, Donatas Motiejunas, Wade Baldwin
+
+
+23: Allen Crabbe, Caris LeVert, Devin Harris, Gorgui Dieng, Luke Kennard, Bam Adebayo, Kyle Kuzma, Delon Wright, Terry Rozier, Mirza Teletovic, Brice Johnson, Andrew Nicholson, Bronson Koenig
+
+
+22: Paul Millsap, Domantas Sabonis, Jonas Valanciunas, James Johnson, Nene Hilario, Denzel Valentine, Udonis Haslem, Mike Muscala, Alex Abrines, Mike Scott, Diamond Stone, Eric Moreland
+
+
+21: Derrick Favors, Willy Hernangomez, Dwight Powell, Norman Powell, Tarik Black, Kris Humphries, Jawun Evans
+
+
+20: Enes Kanter, JJ Barea, Shabazz Napier, Henry Ellenson, Caleb Swanigan, Jordan Bell, Malcolm Delaney, Monte Morris
+
+
+19: Malik Monk, Yogi Ferrell, Sindarius Thornwell, Joffrey Lauvergne
+
+
+18: Cody Zeller, JaMychal Green, Zach Collins, Jon Leuer, Ivica Zubac, Patrick McCaw, Aron Baynes, Alexis Ajinca, Bruno Caboclo, Josh Huestis
+
+
+17: Michael Beasley, Jarell Martin, Jason Smith, Kay Felder, Dwayne Bacon, Isaiah Taylor
+
+
+16: Clint Capela, Tony Snell, Deyonta Davis
+
+
+15: Frank Mason, Frank Jackson, Lorenzo Brown
+
+
+14: Tyler Johnson, Jonathon Simmons, Omer Asik, Sasha Vujacic, Cheick Diallo, Alex Caruso, Fred VanVleet, Derrick Walton, Devin Robinson, Kennedy Meeks, Matt Costello
+
+
+13: Thon Maker, Bogdan Bogdanoivc, Timothe Luwawu-Cabarrot, OG Anunoby, Jeff Withey, D.J. Wilson, Damian Jones, Tyler Lydon, Josh Hart, Tyler Dorsey, Edy Tavares, Jaron Blossomgame, Khem Birch, Brandon Bass, Brandon Paul
+
+
+12: DeAndre Bembry, Raul Neto, Dillon Brooks, Jack Cooley
+
+
+11: Mindaugas Kuzminskas, Nemanja Bjelica, Davis Bertans
+
+
+10: Kawhi Leonard, Derrick Jones Jr., Elijah Millsap, Tony Bradley, Jake Layman, Pascal Siakam, Tomas Satoransky, Semi Ojeyele, Chinanu Onuaku
+
+
+9: Jonathan Isaac, Bojan Bogdanovic, Darrell Arthur, Jarrett Allen, Wesley Iwundu, Semaj Christon, Bryn Forbes, Edmond Sumner, Salah Mejri, Darrun Hilliard
+
+
+8: Richaun Holmes, Dorian Finney-Smith, Thomas Bryant, Nigel Williams-Goss, Shawn Long, JaKarr Sampson, Luke Kornet, Royce O’Neale
+
+
+7: Nikola Jokic, Frank Ntilikina, Kris Dunn, Isaiah Whitehead, Jerryd Bayless, Ike Anigbogu, Davon Reed, Damyean Dotson, Rade Zagorac, Treveon Graham, Joel Bolomboy, Daniel Ochefu, Cameron Oliver
+
+
+6: Lauri Markkaken, Justin Patton, John Collins, Alec Peters, Nicolas Brussino, Eric Griffin, Michael Young
+
+
+5: Lance Thomas, Chasson Randle, Sheldon Mac, Patricio Garino, Marcus Georges-Hunt, Rodney McGruder, Kadeem Allen, Tim Quarterman
+
+
+3: Rodney Hood, Dario Saric, Milos Tedosic, Derrick White, David Nwaba, Okaro White, Malcolm Miller, Cedi Osman
+
+
+2: Ersan Ilyasova, DeAndre Liggins, Johnathan Motley, Guerschon Yabusule, Torrey Craig, JeQuan Lewis, Jalen Moore, Abdel Nader, Daniel Theis, Jarrod Uthoff
+
+
+1: Furkan Korkmaz, Ante Zizic
+
+
+0: Isaiah Hartenstein, Zhou Qi, Matt Williams, Chris Boucher
+
+
+No Twitter: Avery Bradley, Brook Lopez, Otto Porter Jr., Malcolm Brogdon, Ryan Anderson, Mario Hezonja, Georgios Papagiannis, Arron Afflalo, D.J. Augustin, Dragan Bender (private), Marvin Williams, Al Jefferson, Wesley Johnson, Richard Jefferson, PJ Tucker, Boban Marjanoivc, Josh McRoberts, Jakob Poeltl, Cristiano Felicio, Malachi Richardson, Gerald Green, Luke Babbitt, Paul Zipser, Joe Harris, Timofey Mozgov, Gary Payton II, Yakuba Ouattara, Antonio Blakeney, Johnny O’Bryant, Ramon Sessions, Mike James, Ognjen Jaramaz, Luis Montero, Maximillian Kleber, Jamil Wilson, AJ Hammons (private), Sterling Brown, Jabari Bird, Joel Anthony
